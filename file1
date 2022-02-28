@@ -1,1 +1,197 @@
-aaaabbbbccccdddeeeeeffffffgggggg
+{
+	"id": 1000107,
+	"ver": 1,
+	"sizes": [
+		{
+			"size": "9.5x4.25",
+			"width": 2850,
+			"height": 1275
+		}
+	],
+	"default_layout_id": "leather_monogram",
+	"type": "utd",
+	"name": "Leather-Monogram",
+	"subtype":"drinkwrap",
+	"group": "leather_monogram",
+	"is_auto_rotate_layout": false,
+	"support_change_layout": false,
+	"support_drag_slot": false,
+	"choose_layout_title": "Choose Layout",
+	"layouts": {
+		"leather_monogram": {
+			"overlay": "overlay_horizontal",
+			"select_template_overlay": "overlay_vertical",
+            "thumbnail": "thumbnail_utd.drinkwrap.r0-original.en.v1.jpg",
+			"photoslots": {
+            },
+            "pngslots": {
+                "r0-original": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 1,
+                  "h": 1,
+                  "png": "utd.drinkwrap.r0-original.en.v1.png",
+                  "show_original": 1,
+                  "is_show_in_spine": 1
+                }
+              },
+            "textslots": {
+                "t0-default": {
+                        "x": 0.445614035,
+                        "y": 0.324509804,
+                        "w": 0.11122807,
+                        "h": 0.237254902,
+                        "text_leading": 0,
+                        "line_spacing": 0,
+                        "top_spacing": 0,
+                        "max_line": 1,
+                        "face": "VastShadow-Regular",
+                        "align": "center",
+                        "max_h": 1,
+                        "line_height": 1,
+                        "color": "#ffffff",
+                        "ref": "",
+                        "type": "",
+                        "cap_title_sid": "caption_title_center",
+                        "text_tracking": 100,
+                        "multi_lines": 1,
+                        "str": "N",
+                        "place_holder": "N",
+                        "verticalAlignment": "middle",
+                        "is_flex_text": 0,
+                        "slot_rotate": 0,
+                        "max_area": {
+                            "x": 0.445614035,
+                            "y": 0.324509804,
+                            "w": 0.11122807,
+                            "h": 0.237254902
+                        },
+                        "text_spacing_ios1": 0.002
+                },
+                "t1-default": {
+                    "x": 0.423824561,
+                    "y": 0.559411765,
+                    "w": 0.153157895,
+                    "h": 0.058945098,
+                    "text_leading": 0,
+                    "line_spacing": 0,
+                    "top_spacing": 0,
+                    "max_line": 1,
+                    "face": "EngraversGothicBT",
+                    "align": "center",
+                    "max_h": 1,
+                    "line_height": 1,
+                    "color": "#ffffff",
+                    "ref": "",
+                    "type": "",
+                    "cap_title_sid": "caption_title_center",
+                    "text_tracking": 100,
+                    "multi_lines": 1,
+                    "str": "NICHOLAS",
+                    "place_holder": "NICHOLAS",
+                    "verticalAlignment": "middle",
+                    "is_flex_text": 0,
+                    "slot_rotate": 0,
+                    "max_area": {
+                        "x": 0.423824561,
+                        "y": 0.559411765,
+                        "w": 0.153157895,
+                        "h": 0.058945098
+                    },
+                    "text_spacing_ios1": 0.002
+                }
+            },
+            "z_order": [
+                "r0-original",
+                "t0-default",
+                "t1-default"
+              ]
+		}
+	},
+	"overlays": {
+		"overlay_horizontal": {
+			"url": "https://cdn.freeprintsapp.com/images/in_app/drinkwrap/drinkwrap_horizontal.png",
+			"utd_url": "drinkwrap_horizontal.png",
+			"width": 1170,
+			"height": 1170,
+			"left": 6.5,
+			"top": 313.5,
+			"right": 1232.5,
+			"bottom": 862.5,
+			"margins": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		"overlay_vertical": {
+			"url": "https://cdn.freeprintsapp.com/images/in_app/drinkwrap/drinkwrap_vertical_en_leather_monogram.png",
+			"sample_url": "https://cdn.freeprintsapp.com/images/in_app/drinkwrap/drinkwrap_vertical_en_leather_monogram_sample.v1.jpg",
+            "utd_url": "drinkwrap_vertical_en_leather_monogram.png",
+			"width": 1170,
+			"height": 1170,
+			"left": 0,
+			"top": 323,
+			"right": 1150,
+			"bottom": 847,
+			"margins": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		}
+	},
+    "fonts": {
+        "VastShadow-Regular": {
+            "name": "VastShadow Regular",
+            "face": "VastShadow Regular",
+            "face_url": "https://cdn.freeprintsapp.com/fonts/VastShadow-Regular.ttf",
+            "face_url_s": "fonts/VastShadow-Regular.ttf",
+            "text_scale_android": 1,
+            "text_spacing_android": 0.02,
+            "text_top_offset_android": 0,
+            "text_scale_ios": 1.31,
+            "text_spacing_ios": 0.05,
+            "text_top_offset_ios": 0.04,
+            "edit_font_size_ios": 20,
+            "edit_font_size_android": 20,
+            "line_spacing_android": 0,
+            "line_spacing_ios": 0,
+            "text_padding_scale_android": 0,
+            "char_ranges": [],
+            "sort": 1
+        },
+        "EngraversGothicBT": {
+            "name": "Oswald Mediuma",
+            "face": "Oswald Mediuma",
+            "face_url": "https://cdn.freeprintsapp.com/fonts/EngraversGothicBT.otf",
+            "face_url_s": "fonts/EngraversGothicBT.otf",
+            "text_scale_android": 1,
+            "text_spacing_android": 0.02,
+            "text_top_offset_android": 0,
+            "text_scale_ios": 1.31,
+            "text_spacing_ios": 0.05,
+            "text_top_offset_ios": 0.04,
+            "edit_font_size_ios": 20,
+            "edit_font_size_android": 20,
+            "line_spacing_android": 0,
+            "line_spacing_ios": 0,
+            "text_padding_scale_android": 0,
+            "char_ranges": [],
+            "sort": 1
+        }
+      },
+      "text_colors": [
+        "#000000"
+      ]
+}
